@@ -34,6 +34,7 @@ Specifically, it adds an optional "toValidate" attribute to edge objects that ha
             }
           ]
         }
+}
 ```
 
 In the above you can see the new toValidate attribute which instructs OpenImporter to perform a lookup that looks roughly like this:
