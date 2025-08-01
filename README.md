@@ -65,7 +65,22 @@ This is a console app, like all cool hacker tools are. After building you'll hav
 
 **UpdateIcons Flags**
 
-`/icons:` :: Allows you to associate one of several pre-built icons with an arbitrary type in your database. Supported pre-built types are as follows: database, application, server, user, users, user-plus, robot, egg (can I offer you an egg in this trying time?). Usage of this one is a bit trick, but in general is in a format of /icons:[pre-built type],[your custom type];[other pre-built type],[other custom type]...  so like `/icons:database,sccm_app;egg,sccm_administrator`
+`/icons:` :: Allows you to associate one of several pre-built icons with an arbitrary type in your database. Supported pre-built types are as follows: 
+
+- database 
+- application
+- server
+- user
+- users
+- user-plus
+- robot
+- egg (can I offer you an egg in this trying time?)
+
+Usage of this one is a bit tricky, but in general is in a format of 
+
+/icons:[pre-built type],[your custom type];[other pre-built type],[other custom type]...  
+
+so like `/icons:database,sccm_app;egg,sccm_administrator`
 
 ## Example commands
 
